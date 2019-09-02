@@ -4623,7 +4623,7 @@ class NDFrame(PandasObject, SelectionMixin):
             Keep labels from axis for which re.search(regex, label) == True.
         axis : int or str
             The axis to filter on, expressed either as an index (int)
-            or axis name (str)  By default this is the info axis,
+            or axis name (str). By default this is the info axis,
             'index' for Series, 'columns' for DataFrame.
 
         Returns
